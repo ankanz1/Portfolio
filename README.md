@@ -1,6 +1,6 @@
 # Ankan's Developer Portfolio
 
-![Ankan's Portfolio Banner](public/images/devault-banner.jpg)
+![Ankan's Portfolio Banner](link)
 
 Welcome to the official repository for my personal developer portfolio. This project showcases my skills in web development, my passion for solving complex problems, and my dedication to creating beautiful, user-centric digital experiences.
 
@@ -77,9 +77,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 I'm always open to connecting and collaborating on exciting projects.
 
-- **LinkedIn**: [Ankan Das](https://www.linkedin.com/in/ankanz/)
+- **LinkedIn**: [Ankan Mukherjee](https://www.linkedin.com/in/ankan-mukherjee)
 - **GitHub**: [@ankanz1](https://github.com/ankanz1)
-- **Twitter / X**: [@ankan_eth](https://twitter.com/ankan_eth)
+- **Twitter / X**: [@ankz01](https://x.com/_ankz01)
 
 ---
 
