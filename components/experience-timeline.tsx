@@ -17,33 +17,34 @@ const experiences = [
     description:
       "Pursuing Bachelor of Technology with specialization in Computer Science & Engineering. Focusing on emerging technologies including Blockchain, AI/ML, and Software Development.",
     highlights: [
-      "Specialized coursework in Data Structures & Algorithms",
+      "Computer Networks & Security",
+      "Software Engineering & System Design",
       "Advanced studies in Machine Learning & AI",
       "Blockchain Technology & Smart Contract Development",
-      "Software Engineering & System Design",
-      "Database Management Systems",
-      "Computer Networks & Security",
+      "Specialized coursework in Core Computer Science",
+      "Participated in hackathons and coding competitions",
+      "Active member of the University Photography Club 'Aperture Alchemist'",
     ],
-    skills: ["Python", "Java", "C++", "Data Structures", "Algorithms", "Machine Learning", "Blockchain"],
+    skills: ["C", "C++", "Python", "Machine Learning", "Blockchain"],
     color: "from-blue-500 to-indigo-500",
     icon: GraduationCap,
   },
   {
     id: "freelance-dev",
     type: "work",
-    title: "Freelance Blockchain & AI/ML Developer",
+    title: "Intership In SDE, WebDev & Genaretive AI",
     organization: "Self-Employed",
     location: "Kolkata, West Bengal, India",
-    period: "2023 - Present",
+    period: "2024 - Present",
     status: "Current",
     description:
-      "Providing blockchain development and AI/ML solutions to clients worldwide. Specializing in smart contract development, DeFi protocols, and machine learning model implementation.",
+      "As an intern, I worked at the intersection of software development, modern web technologies, and cutting-edge generative AI. I contributed to building responsive web applications, explored AI-powered tools and models (like GPT and diffusion models), and gained hands-on experience in full-stack development, API integration, and real-world problem-solving using emerging technologies.",
     highlights: [
       "Developed 15+ blockchain applications using Solidity & Web3",
       "Built AI/ML models for healthcare and agriculture sectors",
       "Created decentralized applications (DApps) for various industries",
       "Implemented smart contracts for supply chain management",
-      "Delivered predictive analytics solutions using TensorFlow & PyTorch",
+      "Delivered predictive analytics solutions using TensorFlow",
       "Collaborated with international clients on innovative projects",
     ],
     skills: ["Solidity", "Ethereum", "Web3.js", "TensorFlow", "PyTorch", "Python", "JavaScript", "React"],
@@ -68,7 +69,7 @@ const experiences = [
       "Specialized in wedding, event, and portrait photography",
       "Created visual content for social media influencers and brands",
     ],
-    skills: ["Photography", "Video Editing", "Graphic Design", "Adobe Creative Suite", "Social Media Marketing"],
+    skills: ["Photography", "Video Editing", "Graphic Design", "Social Media Marketing"],
     color: "from-purple-500 to-pink-500",
     icon: Award,
   },
@@ -78,7 +79,7 @@ const experiences = [
     title: "Open Source Contributor & Project Developer",
     organization: "GitHub & Personal Projects",
     location: "Remote",
-    period: "2022 - Present",
+    period: "2025 - Present",
     status: "Ongoing",
     description:
       "Actively contributing to open source projects and developing innovative solutions for real-world problems using cutting-edge technologies.",
@@ -90,7 +91,7 @@ const experiences = [
       "Contributed to various open source blockchain projects",
       "Mentored junior developers in blockchain and AI/ML technologies",
     ],
-    skills: ["Open Source", "Project Management", "Technical Leadership", "Mentoring", "Innovation"],
+    skills: ["Open Source", "Project Management", "Technical Leadership", "Innovation"],
     color: "from-green-500 to-teal-500",
     icon: Users,
   },
@@ -100,8 +101,8 @@ const experiences = [
     title: "Professional Certifications & Achievements",
     organization: "Various Platforms",
     location: "Online",
-    period: "2022 - 2024",
-    status: "Completed",
+    period: "2024 - Present",
+    status: "Ongoing",
     description:
       "Continuously upskilling through professional certifications and achieving recognition in blockchain and AI/ML domains.",
     highlights: [
@@ -376,7 +377,7 @@ export function ExperienceTimeline() {
                     LinkedIn Profile
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/17f5UyffFuoGDRV-OVy-Gs2jR2WsPbsKV/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg text-sm font-medium transition-colors"
@@ -391,6 +392,16 @@ export function ExperienceTimeline() {
             </div>
           </motion.div>
         </div>
+
+        {/* Floating "View Resume" Button */}
+        <motion.a
+          href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-10 right-10 z-20 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-full shadow-lg flex items-center gap-2"
+        >
+          View Resume
+        </motion.a>
       </div>
     </section>
   )

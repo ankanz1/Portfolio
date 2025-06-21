@@ -55,7 +55,7 @@ export function HorizontalNav() {
 
         {/* Resume Button - More visible and shifted left */}
         <motion.a
-          href="https://drive.google.com/file/d/17f5UyffFuoGDRV-OVy-Gs2jR2WsPbsKV/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 text-white text-sm font-medium rounded-full transition-all duration-300 shadow-lg"

@@ -188,7 +188,7 @@ const getProjectPlaceholder = (repo: GitHubRepo, category: string): string => {
     return "/images/Aurora.png"
   }
   if (name === "farmsense") {
-    return "/images/Farmsensee.png"
+    return "/images/FarmSensee.png"
   }
   if (name === "budz") {
     return "/images/Budz.jpg"
@@ -200,10 +200,10 @@ const getProjectPlaceholder = (repo: GitHubRepo, category: string): string => {
     return "/images/ModelGeneretor .png"
   }
   if (name === "circlo") {
-    return "/images/circlo.png"
+    return "/images/Circloo.png"
   }
-  if (name === "ankan-portfolio") {
-    return "/images/ComingSoon.png"
+  if (name === "portfolio") {
+    return "/images/portfolio.png"
   }
 
   // Category-based placeholders

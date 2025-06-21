@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created by Ankan M',
   generator: 'Ankz',
   icons: {
-    icon: '/images/favicon.png',
+    icon: '/images/mfavicon.png',
   },
 }
 
