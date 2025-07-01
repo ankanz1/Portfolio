@@ -33,36 +33,6 @@ This portfolio is built with a modern, robust tech stack:
 
 ---
 
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) (version 18.x or later) and [pnpm](https://pnpm.io/) installed on your machine.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/ankanz1/Portfolio.git
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd Portfolio
-    ```
-3.  **Install dependencies:**
-    ```sh
-    pnpm install
-    ```
-4.  **Run the development server:**
-    ```sh
-    pnpm run dev
-    ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
----
 
 ## 📸 Screenshots
 
