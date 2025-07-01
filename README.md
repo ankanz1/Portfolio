@@ -1,6 +1,7 @@
 # Ankan's Developer Portfolio
 
-![Ankan's Portfolio Banner](link)
+![portfolio](https://github.com/user-attachments/assets/4f00a610-23a3-4a06-b33d-ad16d4378da6)
+
 
 Welcome to the official repository for my personal developer portfolio. This project showcases my skills in web development, my passion for solving complex problems, and my dedication to creating beautiful, user-centric digital experiences.
 
