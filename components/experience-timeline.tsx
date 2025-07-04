@@ -394,14 +394,14 @@ export function ExperienceTimeline() {
         </div>
 
         {/* Floating "View Resume" Button */}
-        <motion.a
+        {/* <motion.a
           href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-10 right-10 z-20 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-full shadow-lg flex items-center gap-2"
         >
           View Resume
-        </motion.a>
+        </motion.a> */}
       </div>
     </section>
   )
