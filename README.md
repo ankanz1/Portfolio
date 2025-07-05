@@ -5,8 +5,7 @@
 
 Welcome to the official repository for my personal developer portfolio. This project showcases my skills in web development, my passion for solving complex problems, and my dedication to creating beautiful, user-centric digital experiences.
 
-**[Live Demo](https://ankanz-portfolio.vercel.app/)** (replace with your actual deployment link)
-
+**[Live Demo](https://ankanz-portfolio.vercel.app/)** 
 ---
 
 ## ✨ Features
