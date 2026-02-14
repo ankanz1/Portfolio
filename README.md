@@ -35,11 +35,13 @@ This portfolio is built with a modern, robust tech stack:
 
 ## 📸 Screenshots
 
-*(Add screenshots or GIFs of your portfolio here to give visitors a preview!)*
 
-| Desktop View                               | Mobile View                                |
-| ------------------------------------------ | ------------------------------------------ |
-| ![Desktop Screenshot](public/images/ComingSoon.png) | ![Mobile Screenshot](public/images/ComingSoon.png) |
+| Desktop View                               |
+| ------------------------------------------ |
+|<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/08c17a7c-7762-4fd1-88c2-f15ce804a270" />
+| Mobile View                                |
+| ------------------------------------------ |
+|                                            |
 
 ---
 
