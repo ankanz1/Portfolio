@@ -3,11 +3,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Ankan | Portfolio',
-  description: 'Created by Ankan M',
+  description: 'Created by Ankan Mukherjee',
   generator: 'Ankz',
-  icons: {
-    icon: '/images/mfavicon.png',
-  },
 }
 
 export default function RootLayout({

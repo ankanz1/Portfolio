@@ -33,39 +33,7 @@ interface Project {
   githubData?: GitHubRepo
 }
 
-const featuredProjects: Project[] = [
-  {
-    title: "Medical Image Diagnosis AI",
-    description:
-      "Deep learning model for early detection of diseases from medical imaging using PyTorch and computer vision techniques",
-    tags: ["PyTorch 🔥", "Computer Vision 👁️", "Healthcare 🏥", "Python 🐍"],
-    category: "ai",
-    demoUrl: "https://example.com",
-    repoUrl: "https://github.com/ankanz1",
-    featured: true,
-    image: "/images/ComingSoon.png",
-  },
-  {
-    title: "Decentralized Supply Chain",
-    description: "Blockchain solution for transparent and efficient supply chain management with smart contracts",
-    tags: ["Ethereum ⟠", "Smart Contracts 📜", "Logistics 🚚", "Solidity 💎"],
-    category: "blockchain",
-    demoUrl: "https://example.com",
-    repoUrl: "https://github.com/ankanz1",
-    featured: true,
-    image: "/images/ComingSoon.png",
-  },
-  {
-    title: "Predictive Crop Analysis",
-    description: "ML system to predict crop yields and optimize agricultural practices using data science",
-    tags: ["TensorFlow 🧠", "Data Science 📊", "Agriculture 🌾", "Python 🐍"],
-    category: "ai",
-    demoUrl: "https://example.com",
-    repoUrl: "https://github.com/ankanz1",
-    featured: true,
-    image: "/images/ComingSoon.png",
-  },
-]
+const featuredProjects: Project[] = []
 
 const getLanguageColor = (language: string | null): string => {
   const colors: { [key: string]: string } = {
@@ -199,12 +167,28 @@ const getProjectPlaceholder = (repo: GitHubRepo, category: string): string => {
   if (name === "3d-model-generator") {
     return "/images/ModelGeneretor .png"
   }
-  if (name === "circlo") {
+  if (name === "circlo.in") {
     return "/images/Circloo.png"
   }
   if (name === "portfolio") {
     return "/images/portfolio.png"
   }
+  if (name === "mango.tree") {
+    return "/images/MangoTree.png"
+  }
+  if (name === "caremind") {
+    return "/images/CareMind.png"
+  }
+  if (name === "aperture-alchemist-website") {
+    return "/images/AA.png"
+  }
+  if (name === "aperture-alchemist-fs") {
+    return "/images/AA.png"
+  }
+  if (name === "learnsync") {
+    return "/images/Learn.png"
+  }
+
 
   // Category-based placeholders
   switch (category) {
@@ -337,11 +321,10 @@ export function ProblemSolvingProjects() {
             <motion.button
               key={category.id}
               onClick={() => setSelectedCategory(category.id)}
-              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                selectedCategory === category.id
-                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg"
-                  : "bg-zinc-800/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
-              }`}
+              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${selectedCategory === category.id
+                ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg"
+                : "bg-zinc-800/50 text-zinc-400 hover:text-white hover:bg-zinc-700/50"
+                }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
