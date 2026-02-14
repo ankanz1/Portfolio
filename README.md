@@ -41,7 +41,7 @@ This portfolio is built with a modern, robust tech stack:
 |<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/08c17a7c-7762-4fd1-88c2-f15ce804a270" />
 | Mobile View                                |
 | ------------------------------------------ |
-|                                            |
+|![WhatsApp Image 2026-02-14 at 14 34 48](https://github.com/user-attachments/assets/cc75a055-43eb-4392-99a0-7f221ce015c4)|
 
 ---
 
