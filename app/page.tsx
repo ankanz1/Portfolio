@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
+import { useRouter } from "next/navigation"
 import { SignatureLoader } from "@/components/signature-loader"
 import { StarfieldBackground } from "@/components/starfield-background"
 import { Floating3DText } from "@/components/floating-3d-text"
@@ -12,12 +13,13 @@ import { SkillBadge } from "@/components/skill-badge"
 import { BlogCarousel } from "@/components/blog-carousel"
 import { GlitchContactForm } from "@/components/glitch-contact-form"
 import { CustomCursor } from "@/components/custom-cursor"
+import { CreepyButton } from "@/components/ui/creepy-button"
 import { PersonalAssistant } from "@/components/personal-assistant"
 import { ExperienceTimeline } from "@/components/experience-timeline"
 import { ProblemSolvingProjects } from "@/components/problem-solving-projects"
-import { CreativeSkills } from "@/components/creative-skills"
 
 export default function Portfolio() {
+  const router = useRouter()
   const [isLoading, setIsLoading] = useState(true)
   const [showContent, setShowContent] = useState(false)
 
@@ -65,14 +67,11 @@ export default function Portfolio() {
                 >
                   <div className="flex flex-wrap gap-4 justify-center">
                     <MagneticButton onClick={() => scrollToSection("projects")}>View My Solutions</MagneticButton>
-                    <motion.a
-                      href="#contact"
-                      className="px-8 py-4 border border-zinc-600 hover:border-purple-500 rounded-full font-medium text-zinc-300 hover:text-white transition-all duration-300"
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      Let's Solve Together
-                    </motion.a>
+
+
+                    <CreepyButton className="h-[58px]" onClick={() => router.push("/creative")}>
+                      Creative Portfolio
+                    </CreepyButton>
                   </div>
 
                   <SocialMediaLinks />
@@ -290,8 +289,7 @@ export default function Portfolio() {
           {/* GitHub Projects Timeline */}
           <ExperienceTimeline />
 
-          {/* Creative Skills Section */}
-          <CreativeSkills />
+
 
           {/* Blog Section */}
           <section className="py-32 relative z-10">
