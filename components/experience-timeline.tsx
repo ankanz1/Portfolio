@@ -377,7 +377,7 @@ export function ExperienceTimeline() {
                     LinkedIn Profile
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
+                    href="/Ankan_Mukherjee_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg text-sm font-medium transition-colors"
@@ -395,7 +395,7 @@ export function ExperienceTimeline() {
 
         {/* Floating "View Resume" Button */}
         {/* <motion.a
-          href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link"
+          href="/Ankan_Mukherjee_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-10 right-10 z-20 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-full shadow-lg flex items-center gap-2"

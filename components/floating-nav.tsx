@@ -82,7 +82,7 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              <a href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <a href="/Ankan_Mukherjee_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button
                   size="sm"
                   className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
@@ -114,7 +114,7 @@ export function FloatingNav() {
                 {item.name}
               </Link>
             ))}
-            <a href="https://drive.google.com/file/d/1UXfL0nVvCmP710AGt39nyZQHNMjqtdRn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="/Ankan_Mukherjee_Resume.pdf" target="_blank" rel="noopener noreferrer">
               <Button className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0">
                 Resume
               </Button>
